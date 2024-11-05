@@ -1,0 +1,19 @@
+{
+  "name": "chromium extension template",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "A sample extension",
+  "icons": {
+    "480": "icons/icon420x420.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+    "content_scripts": [
+    {
+      "js": [
+        "content-scripts/content.js"
+      ]
+    }
+  ]
+}
